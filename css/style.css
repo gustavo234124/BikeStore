@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*1.- SECCION ESTILOS DE MENU*/
+
+#inicio{
+    background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url("/img/portada.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.navegationMenu{
+    position: fixed;
+}
+
+#menu #logo-icon{
+    width: 10%;
+    margin: 10px 10px;
+}
+.navegationMenu{
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#menu #items-menu{
+    width: 50%;
+    height: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    flex-wrap: wrap;
+}
+#items-menu i{
+    font-size: 15px;
+}
+#items-menu a{
+    text-decoration: none;
+    color: white;
+}
+#items-menu a:hover{
+    text-transform: lowercase;
+    color: orange;
+    transform: scale(1.5);
+    transition: .2s ease-out;
+}
+
+.typesBiciclces{
+    justify-content: center;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
